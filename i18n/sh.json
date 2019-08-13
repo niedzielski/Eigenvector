@@ -7,16 +7,16 @@
 			"BadDog"
 		]
 	},
-	"vector-action-addsection": "Dodaj temu",
-	"vector-action-delete": "Brisanje",
-	"vector-action-move": "Premjesti",
-	"vector-action-protect": "Zaštiti",
-	"vector-action-undelete": "Vrati obrisano",
-	"vector-action-unprotect": "Promijeni zaštitu",
-	"vector-view-create": "Napravi",
-	"vector-view-edit": "Uredi",
-	"vector-view-history": "Historija/Историја",
-	"vector-view-view": "Čitaj",
-	"vector-view-viewsource": "Vidi izvor (source)",
-	"vector-more-actions": "Više"
+	"eigenvector-action-addsection": "Dodaj temu",
+	"eigenvector-action-delete": "Brisanje",
+	"eigenvector-action-move": "Premjesti",
+	"eigenvector-action-protect": "Zaštiti",
+	"eigenvector-action-undelete": "Vrati obrisano",
+	"eigenvector-action-unprotect": "Promijeni zaštitu",
+	"eigenvector-view-create": "Napravi",
+	"eigenvector-view-edit": "Uredi",
+	"eigenvector-view-history": "Historija/Историја",
+	"eigenvector-view-view": "Čitaj",
+	"eigenvector-view-viewsource": "Vidi izvor (source)",
+	"eigenvector-more-actions": "Više"
 }

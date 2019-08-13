@@ -5,10 +5,10 @@
 			"Chase me ladies, I'm the Cavalry"
 		]
 	},
-	"vector-action-addsection": "Add topic",
-	"vector-view-create": "Create",
-	"vector-view-edit": "Edit",
-	"vector-view-history": "View history",
-	"vector-view-view": "Read",
-	"vector-more-actions": "More"
+	"eigenvector-action-addsection": "Add topic",
+	"eigenvector-view-create": "Create",
+	"eigenvector-view-edit": "Edit",
+	"eigenvector-view-history": "View history",
+	"eigenvector-view-view": "Read",
+	"eigenvector-more-actions": "More"
 }

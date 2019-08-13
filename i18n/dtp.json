@@ -5,15 +5,15 @@
 			"FRANELYA"
 		]
 	},
-	"vector-action-addsection": "Ruhangai piboboroson",
-	"vector-action-delete": "Pugaso",
-	"vector-action-move": "Poundoliho",
-	"vector-action-protect": "Tingoligai",
-	"vector-action-undelete": "Kada pugaso",
-	"vector-action-unprotect": "Alanai tingolig",
-	"vector-view-create": "Pomonsoi",
-	"vector-view-edit": "Idito",
-	"vector-view-history": "Intaai susuyan",
-	"vector-view-view": "Basao",
-	"vector-view-viewsource": "Intaai wowonod"
+	"eigenvector-action-addsection": "Ruhangai piboboroson",
+	"eigenvector-action-delete": "Pugaso",
+	"eigenvector-action-move": "Poundoliho",
+	"eigenvector-action-protect": "Tingoligai",
+	"eigenvector-action-undelete": "Kada pugaso",
+	"eigenvector-action-unprotect": "Alanai tingolig",
+	"eigenvector-view-create": "Pomonsoi",
+	"eigenvector-view-edit": "Idito",
+	"eigenvector-view-history": "Intaai susuyan",
+	"eigenvector-view-view": "Basao",
+	"eigenvector-view-viewsource": "Intaai wowonod"
 }

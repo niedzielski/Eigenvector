@@ -7,16 +7,16 @@
 			"Nirajan pant"
 		]
 	},
-	"vector-action-addsection": "विषय थपिदिय",
-	"vector-action-delete": "मेटऽ",
-	"vector-action-move": "साद्दे",
-	"vector-action-protect": "सुरक्षा अरऽ",
-	"vector-action-undelete": "मेट्याको रद्द अरऽ",
-	"vector-action-unprotect": "सुरक्षा बदेलऽ",
-	"vector-view-create": "सृजना गर्न्या",
-	"vector-view-edit": "सम्पादन",
-	"vector-view-history": "इतिहास तकऽ",
-	"vector-view-view": "पढ़ऽ",
-	"vector-view-viewsource": "स्रोत हेरऽ",
-	"vector-more-actions": "झिक्क"
+	"eigenvector-action-addsection": "विषय थपिदिय",
+	"eigenvector-action-delete": "मेटऽ",
+	"eigenvector-action-move": "साद्दे",
+	"eigenvector-action-protect": "सुरक्षा अरऽ",
+	"eigenvector-action-undelete": "मेट्याको रद्द अरऽ",
+	"eigenvector-action-unprotect": "सुरक्षा बदेलऽ",
+	"eigenvector-view-create": "सृजना गर्न्या",
+	"eigenvector-view-edit": "सम्पादन",
+	"eigenvector-view-history": "इतिहास तकऽ",
+	"eigenvector-view-view": "पढ़ऽ",
+	"eigenvector-view-viewsource": "स्रोत हेरऽ",
+	"eigenvector-more-actions": "झिक्क"
 }

@@ -4,15 +4,15 @@
 			"Thuvack"
 		]
 	},
-	"vector-action-addsection": "Veka nholoko ya mhaka",
-	"vector-action-delete": "Sula",
-	"vector-action-move": "Yi sa kunwana",
-	"vector-action-protect": "Sirhelela",
-	"vector-action-undelete": "Cinca kusula",
-	"vector-action-unprotect": "Cinca kusirhelela",
-	"vector-view-create": "Tumbuluxa",
-	"vector-view-edit": "Lulamisa",
-	"vector-view-history": "Languta matimu",
-	"vector-view-view": "Hlaya",
-	"vector-view-viewsource": "Languta xihlovo"
+	"eigenvector-action-addsection": "Veka nholoko ya mhaka",
+	"eigenvector-action-delete": "Sula",
+	"eigenvector-action-move": "Yi sa kunwana",
+	"eigenvector-action-protect": "Sirhelela",
+	"eigenvector-action-undelete": "Cinca kusula",
+	"eigenvector-action-unprotect": "Cinca kusirhelela",
+	"eigenvector-view-create": "Tumbuluxa",
+	"eigenvector-view-edit": "Lulamisa",
+	"eigenvector-view-history": "Languta matimu",
+	"eigenvector-view-view": "Hlaya",
+	"eigenvector-view-viewsource": "Languta xihlovo"
 }

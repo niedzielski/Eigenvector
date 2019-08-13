@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/vector-skin",
+	"name": "mediawiki/eigenvector-skin",
 	"type": "mediawiki-skin",
 	"description": "Modern version of the MonoBook skin",
 	"keywords": [
@@ -7,7 +7,7 @@
 		"MediaWiki",
 		"skin"
 	],
-	"homepage": "https://www.mediawiki.org/wiki/Skin:Vector",
+	"homepage": "https://www.mediawiki.org/wiki/Skin:Eigenvector",
 	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
@@ -18,8 +18,8 @@
 		}
 	],
 	"support": {
-		"wiki": "https://www.mediawiki.org/wiki/Skin:Vector",
-		"forum": "https://www.mediawiki.org/wiki/Skin_talk:Vector",
+		"wiki": "https://www.mediawiki.org/wiki/Skin:Eigenvector",
+		"forum": "https://www.mediawiki.org/wiki/Skin_talk:Eigenvector",
 		"source": "https://phabricator.wikimedia.org/diffusion/SVEC/",
 		"irc": "irc://irc.freenode.org/mediawiki"
 	},
@@ -31,7 +31,7 @@
 		"branch-alias": {
 			"dev-master": "1.x-dev"
 		},
-		"installer-name": "Vector",
+		"installer-name": "Eigenvector",
 		"phan-taint-check-plugin": "2.0.1"
 	},
 	"require-dev": {

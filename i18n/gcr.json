@@ -5,13 +5,13 @@
 			"Léon973"
 		]
 	},
-	"vector-action-addsection": "Ajouté roun sijè",
-	"vector-action-delete": "Siprimen",
-	"vector-action-move": "Rounonmen",
-	"vector-action-protect": "Protéjé",
-	"vector-view-create": "Kréyé",
-	"vector-view-edit": "Modifyé",
-	"vector-view-history": "Afiché listorik",
-	"vector-view-view": "Li",
-	"vector-more-actions": "Plis"
+	"eigenvector-action-addsection": "Ajouté roun sijè",
+	"eigenvector-action-delete": "Siprimen",
+	"eigenvector-action-move": "Rounonmen",
+	"eigenvector-action-protect": "Protéjé",
+	"eigenvector-view-create": "Kréyé",
+	"eigenvector-view-edit": "Modifyé",
+	"eigenvector-view-history": "Afiché listorik",
+	"eigenvector-view-view": "Li",
+	"eigenvector-more-actions": "Plis"
 }

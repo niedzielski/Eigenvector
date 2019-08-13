@@ -5,13 +5,13 @@
 			"Apundung"
 		]
 	},
-	"vector-action-addsection": "Baen tema",
-	"vector-action-delete": "Apus",
-	"vector-action-move": "Pindah",
-	"vector-action-protect": "Jagoon",
-	"vector-view-create": "Baen",
-	"vector-view-edit": "Pature",
-	"vector-view-history": "Sise sejarah",
-	"vector-view-view": "Baca",
-	"vector-more-actions": "Lainna"
+	"eigenvector-action-addsection": "Baen tema",
+	"eigenvector-action-delete": "Apus",
+	"eigenvector-action-move": "Pindah",
+	"eigenvector-action-protect": "Jagoon",
+	"eigenvector-view-create": "Baen",
+	"eigenvector-view-edit": "Pature",
+	"eigenvector-view-history": "Sise sejarah",
+	"eigenvector-view-view": "Baca",
+	"eigenvector-more-actions": "Lainna"
 }

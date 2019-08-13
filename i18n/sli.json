@@ -7,15 +7,15 @@
 			"Äberlausitzer"
 		]
 	},
-	"vector-action-addsection": "Obschnitt hinzufiega",
-	"vector-action-delete": "Läscha",
-	"vector-action-move": "Verschieba",
-	"vector-action-protect": "Schützen",
-	"vector-action-undelete": "Wiederherstella",
-	"vector-action-unprotect": "Freigahn",
-	"vector-view-create": "Erstella",
-	"vector-view-edit": "Bearbeita",
-	"vector-view-history": "Versionsgeschichte",
-	"vector-view-view": "Lessa",
-	"vector-view-viewsource": "Quelltext siehn"
+	"eigenvector-action-addsection": "Obschnitt hinzufiega",
+	"eigenvector-action-delete": "Läscha",
+	"eigenvector-action-move": "Verschieba",
+	"eigenvector-action-protect": "Schützen",
+	"eigenvector-action-undelete": "Wiederherstella",
+	"eigenvector-action-unprotect": "Freigahn",
+	"eigenvector-view-create": "Erstella",
+	"eigenvector-view-edit": "Bearbeita",
+	"eigenvector-view-history": "Versionsgeschichte",
+	"eigenvector-view-view": "Lessa",
+	"eigenvector-view-viewsource": "Quelltext siehn"
 }

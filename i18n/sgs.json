@@ -4,16 +4,16 @@
 			"Hugo.arg"
 		]
 	},
-	"vector-action-addsection": "Pridietė ožvardėnėma",
-	"vector-action-delete": "Trintė",
-	"vector-action-move": "Parvadintė",
-	"vector-action-protect": "Ožrakintė",
-	"vector-action-undelete": "Atkortė",
-	"vector-action-unprotect": "Keistė apsauga",
-	"vector-view-create": "Padėrbtė",
-	"vector-view-edit": "Taisītė",
-	"vector-view-history": "Istuorėjė",
-	"vector-view-view": "Skaitītė",
-	"vector-view-viewsource": "Veizietė kuoda",
-	"vector-more-actions": "Dā"
+	"eigenvector-action-addsection": "Pridietė ožvardėnėma",
+	"eigenvector-action-delete": "Trintė",
+	"eigenvector-action-move": "Parvadintė",
+	"eigenvector-action-protect": "Ožrakintė",
+	"eigenvector-action-undelete": "Atkortė",
+	"eigenvector-action-unprotect": "Keistė apsauga",
+	"eigenvector-view-create": "Padėrbtė",
+	"eigenvector-view-edit": "Taisītė",
+	"eigenvector-view-history": "Istuorėjė",
+	"eigenvector-view-view": "Skaitītė",
+	"eigenvector-view-viewsource": "Veizietė kuoda",
+	"eigenvector-more-actions": "Dā"
 }

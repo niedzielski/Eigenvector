@@ -1,44 +1,44 @@
 {
-	"name": "Vector",
+	"name": "Eigenvector",
 	"author": [
 		"Trevor Parscal",
 		"Roan Kattouw",
 		"..."
 	],
-	"url": "https://www.mediawiki.org/wiki/Skin:Vector",
-	"descriptionmsg": "vector-skin-desc",
-	"namemsg": "skinname-vector",
+	"url": "https://www.mediawiki.org/wiki/Skin:Eigenvector",
+	"descriptionmsg": "eigenvector-skin-desc",
+	"namemsg": "skinname-eigenvector",
 	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
 	"requires": {
 		"MediaWiki": ">= 1.29.0"
 	},
 	"ConfigRegistry": {
-		"vector": "GlobalVarConfig::newInstance"
+		"eigenvector": "GlobalVarConfig::newInstance"
 	},
 	"ValidSkinNames": {
-		"vector": "Vector"
+		"eigenvector": "Eigenvector"
 	},
 	"MessagesDirs": {
-		"Vector": [
+		"Eigenvector": [
 			"i18n"
 		]
 	},
 	"AutoloadClasses": {
-		"Vector\\Hooks": "includes/Hooks.php",
-		"SkinVector": "includes/SkinVector.php",
-		"VectorTemplate": "includes/VectorTemplate.php",
-		"Vector\\ResourceLoaderLessModule": "includes/ResourceLoaderLessModule.php"
+		"Eigenvector\\Hooks": "includes/Hooks.php",
+		"SkinEigenvector": "includes/SkinEigenvector.php",
+		"EigenvectorTemplate": "includes/EigenvectorTemplate.php",
+		"Eigenvector\\ResourceLoaderLessModule": "includes/ResourceLoaderLessModule.php"
 	},
 	"Hooks": {
 		"BeforePageDisplayMobile": [
-			"Vector\\Hooks::onBeforePageDisplayMobile"
+			"Eigenvector\\Hooks::onBeforePageDisplayMobile"
 		]
 	},
-	"@note": "When modifying skins.vector.styles definition, make sure the installer still works",
+	"@note": "When modifying skins.eigenvector.styles definition, make sure the installer still works",
 	"ResourceModules": {
-		"skins.vector.styles": {
-			"class": "Vector\\ResourceLoaderLessModule",
+		"skins.eigenvector.styles": {
+			"class": "Eigenvector\\ResourceLoaderLessModule",
 			"targets": [ "desktop", "mobile" ],
 			"styles": {
 				"screen.less": {
@@ -51,16 +51,16 @@
 			}
 		},
 
-		"skins.vector.styles.responsive": {
+		"skins.eigenvector.styles.responsive": {
 			"targets": [ "desktop", "mobile" ],
 			"styles": [
 				"responsive.less"
 			]
 		},
-		"skins.vector.js": {
+		"skins.eigenvector.js": {
 			"scripts": [
 				"collapsibleTabs.js",
-				"vector.js"
+				"eigenvector.js"
 			],
 			"dependencies": [
 				"jquery.throttle-debounce",
@@ -70,10 +70,10 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Vector"
+		"remoteSkinPath": "Eigenvector"
 	},
 	"ResourceModuleSkinStyles": {
-		"vector": {
+		"eigenvector": {
 			"jquery.tipsy": "skinStyles/jquery.tipsy.less",
 			"jquery.ui.core": [
 				"skinStyles/jquery.ui/jquery.ui.core.css",
@@ -99,10 +99,10 @@
 		}
 	},
 	"config": {
-		"VectorUseSimpleSearch": true,
-		"VectorUseIconWatch": true,
-		"VectorResponsive": false,
-		"VectorPrintLogo": false
+		"EigenvectorUseSimpleSearch": true,
+		"EigenvectorUseIconWatch": true,
+		"EigenvectorResponsive": false,
+		"EigenvectorPrintLogo": false
 	},
 	"manifest_version": 1
 }

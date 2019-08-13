@@ -5,14 +5,14 @@
 			"Axel xadolik"
 		]
 	},
-	"vector-action-addsection": "Loplekura va detce",
-	"vector-action-delete": "Sulara",
-	"vector-action-move": "Arrundara",
-	"vector-action-protect": "Nendara",
-	"vector-view-create": "Redura",
-	"vector-view-edit": "Betara",
-	"vector-view-history": "Wira va izvot",
-	"vector-view-view": "Belira",
-	"vector-view-viewsource": "klitawira",
-	"vector-more-actions": "Loon"
+	"eigenvector-action-addsection": "Loplekura va detce",
+	"eigenvector-action-delete": "Sulara",
+	"eigenvector-action-move": "Arrundara",
+	"eigenvector-action-protect": "Nendara",
+	"eigenvector-view-create": "Redura",
+	"eigenvector-view-edit": "Betara",
+	"eigenvector-view-history": "Wira va izvot",
+	"eigenvector-view-view": "Belira",
+	"eigenvector-view-viewsource": "klitawira",
+	"eigenvector-more-actions": "Loon"
 }

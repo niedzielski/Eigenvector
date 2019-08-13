@@ -5,16 +5,16 @@
 			"Si Gam Acèh"
 		]
 	},
-	"vector-action-addsection": "Tamah bhaih",
-	"vector-action-delete": "Sampôh",
-	"vector-action-move": "Pupinah",
-	"vector-action-protect": "Peulindông",
-	"vector-action-undelete": "Bateuë sampôh",
-	"vector-action-unprotect": "Gantoe neulindông",
-	"vector-view-create": "Peugöt",
-	"vector-view-edit": "Peusaneut",
-	"vector-view-history": "Eu riwayat",
-	"vector-view-view": "Beuet",
-	"vector-view-viewsource": "Eu nè",
-	"vector-more-actions": "Lom"
+	"eigenvector-action-addsection": "Tamah bhaih",
+	"eigenvector-action-delete": "Sampôh",
+	"eigenvector-action-move": "Pupinah",
+	"eigenvector-action-protect": "Peulindông",
+	"eigenvector-action-undelete": "Bateuë sampôh",
+	"eigenvector-action-unprotect": "Gantoe neulindông",
+	"eigenvector-view-create": "Peugöt",
+	"eigenvector-view-edit": "Peusaneut",
+	"eigenvector-view-history": "Eu riwayat",
+	"eigenvector-view-view": "Beuet",
+	"eigenvector-view-viewsource": "Eu nè",
+	"eigenvector-more-actions": "Lom"
 }

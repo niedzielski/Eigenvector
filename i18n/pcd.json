@@ -4,16 +4,16 @@
 			"Geoleplubo"
 		]
 	},
-	"vector-action-addsection": "Rajouter un sujeut",
-	"vector-action-delete": "Défacer",
-	"vector-action-move": "Canger ch'nom",
-	"vector-action-protect": "Garantir",
-	"vector-action-undelete": "N'poin défacher",
-	"vector-action-unprotect": "Canger l'garantie",
-	"vector-view-create": "Créer",
-	"vector-view-edit": "Éditer",
-	"vector-view-history": "Vir l'histoère",
-	"vector-view-view": "Lire",
-	"vector-view-viewsource": "Vir l'source",
-	"vector-more-actions": "Pus"
+	"eigenvector-action-addsection": "Rajouter un sujeut",
+	"eigenvector-action-delete": "Défacer",
+	"eigenvector-action-move": "Canger ch'nom",
+	"eigenvector-action-protect": "Garantir",
+	"eigenvector-action-undelete": "N'poin défacher",
+	"eigenvector-action-unprotect": "Canger l'garantie",
+	"eigenvector-view-create": "Créer",
+	"eigenvector-view-edit": "Éditer",
+	"eigenvector-view-history": "Vir l'histoère",
+	"eigenvector-view-view": "Lire",
+	"eigenvector-view-viewsource": "Vir l'source",
+	"eigenvector-more-actions": "Pus"
 }

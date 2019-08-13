@@ -5,18 +5,18 @@
 			"The Discoverer"
 		]
 	},
-	"vector-action-addsection": "Vixoi zodd",
-	"vector-action-delete": "Kadd",
-	"vector-action-move": "Zago bodol",
-	"vector-action-protect": "Rakh",
-	"vector-action-undelete": "Portun hadd",
-	"vector-action-unprotect": "Surokxechem sthor bodol",
-	"vector-view-create": "Roch",
-	"vector-view-edit": "Bodol",
-	"vector-view-history": "Itihas polloi",
-	"vector-view-view": "Vach",
-	"vector-view-viewsource": "Mull polloi",
-	"vector-jumptonavigation": "Dixa bodlunk uddki mar",
-	"vector-jumptosearch": "Soda khatir uddki mar",
-	"vector-more-actions": "Anik"
+	"eigenvector-action-addsection": "Vixoi zodd",
+	"eigenvector-action-delete": "Kadd",
+	"eigenvector-action-move": "Zago bodol",
+	"eigenvector-action-protect": "Rakh",
+	"eigenvector-action-undelete": "Portun hadd",
+	"eigenvector-action-unprotect": "Surokxechem sthor bodol",
+	"eigenvector-view-create": "Roch",
+	"eigenvector-view-edit": "Bodol",
+	"eigenvector-view-history": "Itihas polloi",
+	"eigenvector-view-view": "Vach",
+	"eigenvector-view-viewsource": "Mull polloi",
+	"eigenvector-jumptonavigation": "Dixa bodlunk uddki mar",
+	"eigenvector-jumptosearch": "Soda khatir uddki mar",
+	"eigenvector-more-actions": "Anik"
 }

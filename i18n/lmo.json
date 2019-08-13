@@ -5,16 +5,16 @@
 			"Ninonino"
 		]
 	},
-	"vector-action-addsection": "Giunta argument",
-	"vector-action-delete": "Scancela",
-	"vector-action-move": "Sposta",
-	"vector-action-protect": "Prutegg",
-	"vector-action-undelete": "Recüpera",
-	"vector-action-unprotect": "Càmbia la protesiù",
-	"vector-view-create": "Crea",
-	"vector-view-edit": "Mudifega",
-	"vector-view-history": "Varda la storia",
-	"vector-view-view": "Legg",
-	"vector-view-viewsource": "Varda el codes",
-	"vector-more-actions": "Amò"
+	"eigenvector-action-addsection": "Giunta argument",
+	"eigenvector-action-delete": "Scancela",
+	"eigenvector-action-move": "Sposta",
+	"eigenvector-action-protect": "Prutegg",
+	"eigenvector-action-undelete": "Recüpera",
+	"eigenvector-action-unprotect": "Càmbia la protesiù",
+	"eigenvector-view-create": "Crea",
+	"eigenvector-view-edit": "Mudifega",
+	"eigenvector-view-history": "Varda la storia",
+	"eigenvector-view-view": "Legg",
+	"eigenvector-view-viewsource": "Varda el codes",
+	"eigenvector-more-actions": "Amò"
 }

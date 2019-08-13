@@ -6,16 +6,16 @@
 			"Nrowe"
 		]
 	},
-	"vector-action-addsection": "Keworra testen",
-	"vector-action-delete": "Dilea",
-	"vector-action-move": "Gwaya",
-	"vector-action-protect": "Difres",
-	"vector-action-undelete": "Disdhilea",
-	"vector-action-unprotect": "Chanjya difresans",
-	"vector-view-create": "Gwruthyl",
-	"vector-view-edit": "Chanjya",
-	"vector-view-history": "Gweles an istori",
-	"vector-view-view": "Redya",
-	"vector-view-viewsource": "Gweles an bennfenten",
-	"vector-more-actions": "Moy"
+	"eigenvector-action-addsection": "Keworra testen",
+	"eigenvector-action-delete": "Dilea",
+	"eigenvector-action-move": "Gwaya",
+	"eigenvector-action-protect": "Difres",
+	"eigenvector-action-undelete": "Disdhilea",
+	"eigenvector-action-unprotect": "Chanjya difresans",
+	"eigenvector-view-create": "Gwruthyl",
+	"eigenvector-view-edit": "Chanjya",
+	"eigenvector-view-history": "Gweles an istori",
+	"eigenvector-view-view": "Redya",
+	"eigenvector-view-viewsource": "Gweles an bennfenten",
+	"eigenvector-more-actions": "Moy"
 }

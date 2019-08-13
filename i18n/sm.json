@@ -4,8 +4,8 @@
 			"Fanjiayi"
 		]
 	},
-	"vector-action-delete": "Tape",
-	"vector-action-move": "Si'itia",
-	"vector-action-protect": "Puipui",
-	"vector-view-edit": "Teuteu"
+	"eigenvector-action-delete": "Tape",
+	"eigenvector-action-move": "Si'itia",
+	"eigenvector-action-protect": "Puipui",
+	"eigenvector-view-edit": "Teuteu"
 }

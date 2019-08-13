@@ -5,18 +5,18 @@
 			"Cedric31"
 		]
 	},
-	"vector.css": "/* Lo CSS plaçat aicí afectarà los utilizaires de l’abilhatge Vector */",
-	"vector.js": "/* Tot JavaScript aicí serà cargat amb las paginas accedidas pels utilizaires de l’abilhatge Vector unicament. */",
-	"vector-action-addsection": "Apondre un subjècte",
-	"vector-action-delete": "Suprimir",
-	"vector-action-move": "Renomenar",
-	"vector-action-protect": "Protegir",
-	"vector-action-undelete": "Restablir",
-	"vector-action-unprotect": "Suprimir la proteccion",
-	"vector-view-create": "Crear",
-	"vector-view-edit": "Modificar",
-	"vector-view-history": "Veire l'istoric",
-	"vector-view-view": "Legir",
-	"vector-view-viewsource": "Veire la font",
-	"vector-more-actions": "Mai"
+	"eigenvector.css": "/* Lo CSS plaçat aicí afectarà los utilizaires de l’abilhatge Eigenvector */",
+	"eigenvector.js": "/* Tot JavaScript aicí serà cargat amb las paginas accedidas pels utilizaires de l’abilhatge Eigenvector unicament. */",
+	"eigenvector-action-addsection": "Apondre un subjècte",
+	"eigenvector-action-delete": "Suprimir",
+	"eigenvector-action-move": "Renomenar",
+	"eigenvector-action-protect": "Protegir",
+	"eigenvector-action-undelete": "Restablir",
+	"eigenvector-action-unprotect": "Suprimir la proteccion",
+	"eigenvector-view-create": "Crear",
+	"eigenvector-view-edit": "Modificar",
+	"eigenvector-view-history": "Veire l'istoric",
+	"eigenvector-view-view": "Legir",
+	"eigenvector-view-viewsource": "Veire la font",
+	"eigenvector-more-actions": "Mai"
 }

@@ -4,11 +4,11 @@
 			"Iyuqciyang"
 		]
 	},
-	"vector-action-move": "Hdlun",
-	"vector-view-create": "Phiyug",
-	"vector-view-edit": "Smmalu patas",
-	"vector-view-history": "Patas endaan qmita",
-	"vector-view-view": "Smpug patas",
-	"vector-view-viewsource": "ida nkiya patas sspgan ka qtai",
-	"vector-more-actions": "Knlala"
+	"eigenvector-action-move": "Hdlun",
+	"eigenvector-view-create": "Phiyug",
+	"eigenvector-view-edit": "Smmalu patas",
+	"eigenvector-view-history": "Patas endaan qmita",
+	"eigenvector-view-view": "Smpug patas",
+	"eigenvector-view-viewsource": "ida nkiya patas sspgan ka qtai",
+	"eigenvector-more-actions": "Knlala"
 }

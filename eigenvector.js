@@ -1,5 +1,5 @@
 /**
- * Vector-specific scripts
+ * Eigenvector-specific scripts
  */
 /* eslint-disable no-jquery/no-global-selector */
 $( function () {

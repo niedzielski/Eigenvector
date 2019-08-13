@@ -4,16 +4,16 @@
 			"Silvicola"
 		]
 	},
-	"vector.css": "/* CSS hiir beâjflusd nôr dii Vector-schelfn. Wen'd ale uf ôômôôl beâjflusn wilsch, muâsch an MediaWiki:Common.css was ändârn. */",
-	"vector-action-addsection": "Ân najn abschnid ôôfangn",
-	"vector-action-delete": "Leschn",
-	"vector-action-move": "Umdaafn",
-	"vector-action-protect": "Schidsn",
-	"vector-action-undelete": "Leschn riggängich machn",
-	"vector-action-unprotect": "Schuds ufgeebn",
-	"vector-view-create": "Ôôleechn",
-	"vector-view-edit": "Bearbajdn",
-	"vector-view-history": "Wärsjoonsfolche",
-	"vector-view-view": "Leesn",
-	"vector-view-viewsource": "Gwäl-dhägsd ôôgugn"
+	"eigenvector.css": "/* CSS hiir beâjflusd nôr dii Eigenvector-schelfn. Wen'd ale uf ôômôôl beâjflusn wilsch, muâsch an MediaWiki:Common.css was ändârn. */",
+	"eigenvector-action-addsection": "Ân najn abschnid ôôfangn",
+	"eigenvector-action-delete": "Leschn",
+	"eigenvector-action-move": "Umdaafn",
+	"eigenvector-action-protect": "Schidsn",
+	"eigenvector-action-undelete": "Leschn riggängich machn",
+	"eigenvector-action-unprotect": "Schuds ufgeebn",
+	"eigenvector-view-create": "Ôôleechn",
+	"eigenvector-view-edit": "Bearbajdn",
+	"eigenvector-view-history": "Wärsjoonsfolche",
+	"eigenvector-view-view": "Leesn",
+	"eigenvector-view-viewsource": "Gwäl-dhägsd ôôgugn"
 }

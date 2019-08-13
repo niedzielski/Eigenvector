@@ -6,17 +6,17 @@
 			"Ernác"
 		]
 	},
-	"skinname-vector": "Вектор",
-	"vector-action-addsection": "Джангы тема къош",
-	"vector-action-delete": "Кетер",
-	"vector-action-move": "Атын ауушдур",
-	"vector-action-protect": "Джакъла",
-	"vector-action-undelete": "Къайтар",
-	"vector-action-unprotect": "Джакълауну тюрлендир",
-	"vector-view-create": "Къура",
-	"vector-view-edit": "Тюрлендир",
-	"vector-view-history": "Тарихи",
-	"vector-view-view": "Окъу",
-	"vector-view-viewsource": "Кодха къара",
-	"vector-more-actions": "Энтда"
+	"skinname-eigenvector": "Вектор",
+	"eigenvector-action-addsection": "Джангы тема къош",
+	"eigenvector-action-delete": "Кетер",
+	"eigenvector-action-move": "Атын ауушдур",
+	"eigenvector-action-protect": "Джакъла",
+	"eigenvector-action-undelete": "Къайтар",
+	"eigenvector-action-unprotect": "Джакълауну тюрлендир",
+	"eigenvector-view-create": "Къура",
+	"eigenvector-view-edit": "Тюрлендир",
+	"eigenvector-view-history": "Тарихи",
+	"eigenvector-view-view": "Окъу",
+	"eigenvector-view-viewsource": "Кодха къара",
+	"eigenvector-more-actions": "Энтда"
 }

@@ -6,16 +6,16 @@
 			"Lorestani"
 		]
 	},
-	"vector-action-addsection": "سالفٱ اْزاف بٱکؽت",
-	"vector-action-delete": "پاکسا کردن",
-	"vector-action-move": "جا ڤ جا بۊئیت",
-	"vector-action-protect": "پر ۉ پیم بٱکؽت",
-	"vector-action-undelete": "حذف نبيئني",
-	"vector-action-unprotect": "حمايت آلشت بكيد",
-	"vector-view-create": "دۏرس كردن",
-	"vector-view-edit": "ڤیرایش",
-	"vector-view-history": "دیئن ڤیرگار",
-	"vector-view-view": "ڤٱناْ",
-	"vector-view-viewsource": "سرچشمه نه بوينيت",
-	"vector-more-actions": "بؽشتر"
+	"eigenvector-action-addsection": "سالفٱ اْزاف بٱکؽت",
+	"eigenvector-action-delete": "پاکسا کردن",
+	"eigenvector-action-move": "جا ڤ جا بۊئیت",
+	"eigenvector-action-protect": "پر ۉ پیم بٱکؽت",
+	"eigenvector-action-undelete": "حذف نبيئني",
+	"eigenvector-action-unprotect": "حمايت آلشت بكيد",
+	"eigenvector-view-create": "دۏرس كردن",
+	"eigenvector-view-edit": "ڤیرایش",
+	"eigenvector-view-history": "دیئن ڤیرگار",
+	"eigenvector-view-view": "ڤٱناْ",
+	"eigenvector-view-viewsource": "سرچشمه نه بوينيت",
+	"eigenvector-more-actions": "بؽشتر"
 }

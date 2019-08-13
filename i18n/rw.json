@@ -4,8 +4,8 @@
 			"Vogone"
 		]
 	},
-	"vector-action-move": "Imura",
-	"vector-view-edit": "Hindura",
-	"vector-view-history": "Reba amateka",
-	"vector-view-view": "Soma"
+	"eigenvector-action-move": "Imura",
+	"eigenvector-view-edit": "Hindura",
+	"eigenvector-view-history": "Reba amateka",
+	"eigenvector-view-view": "Soma"
 }

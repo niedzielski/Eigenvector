@@ -4,16 +4,16 @@
 			"AlimanRuna"
 		]
 	},
-	"vector-action-addsection": "Allwiyta yapay",
-	"vector-action-delete": "Qulluy",
-	"vector-action-move": "Astay",
-	"vector-action-protect": "Amachay",
-	"vector-action-undelete": "Qullusqata paqarichiy",
-	"vector-action-unprotect": "Amachayta wakinchay",
-	"vector-view-create": "Kamariy",
-	"vector-view-edit": "Llamk'apuy",
-	"vector-view-history": "Wiñay kawsayta qhaway",
-	"vector-view-view": "Ñawiriy",
-	"vector-view-viewsource": "Pukyu qillqata qhaway",
-	"vector-more-actions": "Aswan"
+	"eigenvector-action-addsection": "Allwiyta yapay",
+	"eigenvector-action-delete": "Qulluy",
+	"eigenvector-action-move": "Astay",
+	"eigenvector-action-protect": "Amachay",
+	"eigenvector-action-undelete": "Qullusqata paqarichiy",
+	"eigenvector-action-unprotect": "Amachayta wakinchay",
+	"eigenvector-view-create": "Kamariy",
+	"eigenvector-view-edit": "Llamk'apuy",
+	"eigenvector-view-history": "Wiñay kawsayta qhaway",
+	"eigenvector-view-view": "Ñawiriy",
+	"eigenvector-view-viewsource": "Pukyu qillqata qhaway",
+	"eigenvector-more-actions": "Aswan"
 }

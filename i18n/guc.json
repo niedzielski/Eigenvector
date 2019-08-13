@@ -4,12 +4,12 @@
 			"Maor X"
 		]
 	},
-	"vector-action-delete": "Ojuichajaa",
-	"vector-action-move": "Ansülaa",
-	"vector-action-protect": "Eisalajaa",
-	"vector-view-create": "Akumajaa",
-	"vector-view-edit": "Anaataa",
-	"vector-view-history": "Achikii a'wanajaayamaajatü",
-	"vector-view-view": "Aashaje'eraa",
-	"vector-view-viewsource": "Anüliaa eejeetülee"
+	"eigenvector-action-delete": "Ojuichajaa",
+	"eigenvector-action-move": "Ansülaa",
+	"eigenvector-action-protect": "Eisalajaa",
+	"eigenvector-view-create": "Akumajaa",
+	"eigenvector-view-edit": "Anaataa",
+	"eigenvector-view-history": "Achikii a'wanajaayamaajatü",
+	"eigenvector-view-view": "Aashaje'eraa",
+	"eigenvector-view-viewsource": "Anüliaa eejeetülee"
 }

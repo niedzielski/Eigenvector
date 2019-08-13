@@ -9,16 +9,16 @@
 			"Amire80"
 		]
 	},
-	"vector-action-addsection": "ᱥᱟᱛᱚᱢ ᱥᱮᱞᱮᱫ",
-	"vector-action-delete": "ᱜᱮᱫ ᱜᱤᱰᱤ",
-	"vector-action-move": "ᱩᱪᱟᱹᱲ",
-	"vector-action-protect": "ᱨᱩᱠᱷᱤᱭᱟᱹ",
-	"vector-action-undelete": "ᱵᱟᱝ ᱜᱮᱫ ᱜᱤᱰᱤ",
-	"vector-action-unprotect": "ᱵᱚᱫᱚᱞ ᱨᱩᱠᱷᱤᱭᱟᱹ",
-	"vector-view-create": "ᱛᱮᱭᱟᱨ",
-	"vector-view-edit": "ᱥᱟᱯᱲᱟᱣ",
-	"vector-view-history": "ᱱᱟᱜᱟᱢ ᱧᱮᱞᱢᱮ",
-	"vector-view-view": "ᱯᱟᱲᱦᱟᱣᱢᱮ",
-	"vector-view-viewsource": "ᱯᱷᱮᱰᱟᱛ ᱧᱮᱞᱢᱮ",
-	"vector-more-actions": "ᱵᱟᱹᱲᱛᱤ"
+	"eigenvector-action-addsection": "ᱥᱟᱛᱚᱢ ᱥᱮᱞᱮᱫ",
+	"eigenvector-action-delete": "ᱜᱮᱫ ᱜᱤᱰᱤ",
+	"eigenvector-action-move": "ᱩᱪᱟᱹᱲ",
+	"eigenvector-action-protect": "ᱨᱩᱠᱷᱤᱭᱟᱹ",
+	"eigenvector-action-undelete": "ᱵᱟᱝ ᱜᱮᱫ ᱜᱤᱰᱤ",
+	"eigenvector-action-unprotect": "ᱵᱚᱫᱚᱞ ᱨᱩᱠᱷᱤᱭᱟᱹ",
+	"eigenvector-view-create": "ᱛᱮᱭᱟᱨ",
+	"eigenvector-view-edit": "ᱥᱟᱯᱲᱟᱣ",
+	"eigenvector-view-history": "ᱱᱟᱜᱟᱢ ᱧᱮᱞᱢᱮ",
+	"eigenvector-view-view": "ᱯᱟᱲᱦᱟᱣᱢᱮ",
+	"eigenvector-view-viewsource": "ᱯᱷᱮᱰᱟᱛ ᱧᱮᱞᱢᱮ",
+	"eigenvector-more-actions": "ᱵᱟᱹᱲᱛᱤ"
 }

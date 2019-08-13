@@ -8,16 +8,16 @@
 			"Przem(1)s"
 		]
 	},
-	"vector-action-addsection": "Nowo tajla",
-	"vector-action-delete": "Wyćepej",
-	"vector-action-move": "Przećep",
-	"vector-action-protect": "Zawrzij",
-	"vector-action-undelete": "Wćep",
-	"vector-action-unprotect": "Uodymkńij",
-	"vector-view-create": "Stwůrz",
-	"vector-view-edit": "Edytuj",
-	"vector-view-history": "Uobocz gyszichta",
-	"vector-view-view": "Czytej",
-	"vector-view-viewsource": "Zdrzůdłowy tekst",
-	"vector-more-actions": "Wiyncyj"
+	"eigenvector-action-addsection": "Nowo tajla",
+	"eigenvector-action-delete": "Wyćepej",
+	"eigenvector-action-move": "Przećep",
+	"eigenvector-action-protect": "Zawrzij",
+	"eigenvector-action-undelete": "Wćep",
+	"eigenvector-action-unprotect": "Uodymkńij",
+	"eigenvector-view-create": "Stwůrz",
+	"eigenvector-view-edit": "Edytuj",
+	"eigenvector-view-history": "Uobocz gyszichta",
+	"eigenvector-view-view": "Czytej",
+	"eigenvector-view-viewsource": "Zdrzůdłowy tekst",
+	"eigenvector-more-actions": "Wiyncyj"
 }

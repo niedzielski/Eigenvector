@@ -5,17 +5,17 @@
 			"Gazimagomedov"
 		]
 	},
-	"vector-skin-desc": "MonoBook'алъул цӀияб версия цияб куцгун ва цӀиял юзабилитиялгун",
-	"vector-action-addsection": "Тема жубазе",
-	"vector-action-delete": "БацIцIине",
-	"vector-action-move": "ЦӀар хисизе",
-	"vector-action-protect": "Хиса-басияздасан цIунизе",
-	"vector-action-undelete": "БукӀараб гӀадин гьабизе",
-	"vector-action-unprotect": "ЦӀуни хисизе",
-	"vector-view-create": "Гьабизе",
-	"vector-view-edit": "Хисизабизе",
-	"vector-view-history": "Тарих балагьизе",
-	"vector-view-view": "ЦӀализе",
-	"vector-view-viewsource": "Вики-текст балагьизе",
-	"vector-more-actions": "Жеги"
+	"eigenvector-skin-desc": "MonoBook'алъул цӀияб версия цияб куцгун ва цӀиял юзабилитиялгун",
+	"eigenvector-action-addsection": "Тема жубазе",
+	"eigenvector-action-delete": "БацIцIине",
+	"eigenvector-action-move": "ЦӀар хисизе",
+	"eigenvector-action-protect": "Хиса-басияздасан цIунизе",
+	"eigenvector-action-undelete": "БукӀараб гӀадин гьабизе",
+	"eigenvector-action-unprotect": "ЦӀуни хисизе",
+	"eigenvector-view-create": "Гьабизе",
+	"eigenvector-view-edit": "Хисизабизе",
+	"eigenvector-view-history": "Тарих балагьизе",
+	"eigenvector-view-view": "ЦӀализе",
+	"eigenvector-view-viewsource": "Вики-текст балагьизе",
+	"eigenvector-more-actions": "Жеги"
 }

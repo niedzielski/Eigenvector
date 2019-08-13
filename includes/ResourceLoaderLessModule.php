@@ -20,7 +20,7 @@
  * @file
  */
 
-namespace Vector;
+namespace Eigenvector;
 
 use CSSMin;
 use MediaWiki\MediaWikiServices;
@@ -45,8 +45,8 @@ class ResourceLoaderLessModule extends ResourceLoaderFileModule {
 	protected function getLessVars( ResourceLoaderContext $context ) {
 		$lessVars = parent::getLessVars( $context );
 		try {
-			$config = MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'vector' );
-			$printLogo = $config->get( 'VectorPrintLogo' );
+			$config = MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'eigenvector' );
+			$printLogo = $config->get( 'EigenvectorPrintLogo' );
 		} catch ( ConfigException $e ) {
 			// Config is not available when running in the context of the MediaWiki installer. (T183640)
 			$printLogo = false;

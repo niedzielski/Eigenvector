@@ -4,16 +4,16 @@
 			"Servien"
 		]
 	},
-	"vector-action-addsection": "Ny underwarp",
-	"vector-action-delete": "Vortdoon",
-	"vector-action-move": "Hernömen",
-	"vector-action-protect": "Beveiligen",
-	"vector-action-undelete": "Weerummeplaotsen",
-	"vector-action-unprotect": "Beveiliging wysigen",
-	"vector-view-create": "Anmaken",
-	"vector-view-edit": "Bewarken",
-	"vector-view-history": "Geskydenisse bekyken",
-	"vector-view-view": "Leasen",
-	"vector-view-viewsource": "Brontekste bekyken",
-	"vector-more-actions": "Meyr"
+	"eigenvector-action-addsection": "Ny underwarp",
+	"eigenvector-action-delete": "Vortdoon",
+	"eigenvector-action-move": "Hernömen",
+	"eigenvector-action-protect": "Beveiligen",
+	"eigenvector-action-undelete": "Weerummeplaotsen",
+	"eigenvector-action-unprotect": "Beveiliging wysigen",
+	"eigenvector-view-create": "Anmaken",
+	"eigenvector-view-edit": "Bewarken",
+	"eigenvector-view-history": "Geskydenisse bekyken",
+	"eigenvector-view-view": "Leasen",
+	"eigenvector-view-viewsource": "Brontekste bekyken",
+	"eigenvector-more-actions": "Meyr"
 }

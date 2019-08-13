@@ -8,17 +8,17 @@
 			"Srdjan m"
 		]
 	},
-	"vector-skin-desc": "Moderna verzija MonoKnjige s novijim izgledom i mnogim poboljšanjima u pogledu upotrebljivosti",
-	"vector-action-addsection": "Dodaj temu",
-	"vector-action-delete": "Obriši",
-	"vector-action-move": "Premjesti",
-	"vector-action-protect": "Zaštiti",
-	"vector-action-undelete": "Vrati obrisano",
-	"vector-action-unprotect": "Promijeni zaštitu",
-	"vector-view-create": "Napravi",
-	"vector-view-edit": "Uredi",
-	"vector-view-history": "Historija",
-	"vector-view-view": "Čitaj",
-	"vector-view-viewsource": "Pogledaj izvor",
-	"vector-more-actions": "Više"
+	"eigenvector-skin-desc": "Moderna verzija MonoKnjige s novijim izgledom i mnogim poboljšanjima u pogledu upotrebljivosti",
+	"eigenvector-action-addsection": "Dodaj temu",
+	"eigenvector-action-delete": "Obriši",
+	"eigenvector-action-move": "Premjesti",
+	"eigenvector-action-protect": "Zaštiti",
+	"eigenvector-action-undelete": "Vrati obrisano",
+	"eigenvector-action-unprotect": "Promijeni zaštitu",
+	"eigenvector-view-create": "Napravi",
+	"eigenvector-view-edit": "Uredi",
+	"eigenvector-view-history": "Historija",
+	"eigenvector-view-view": "Čitaj",
+	"eigenvector-view-viewsource": "Pogledaj izvor",
+	"eigenvector-more-actions": "Više"
 }

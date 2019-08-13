@@ -7,17 +7,17 @@
 			"Janezdrilc"
 		]
 	},
-	"vector-skin-desc": "Sodobna različica MonoBook s svežim videzom in mnogimi izboljšavami uporabnosti",
-	"vector-action-addsection": "Dodaj temo",
-	"vector-action-delete": "Izbriši",
-	"vector-action-move": "Preimenuj",
-	"vector-action-protect": "Zaščiti",
-	"vector-action-undelete": "Obnovi",
-	"vector-action-unprotect": "Spremeni zaščito",
-	"vector-view-create": "Ustvari",
-	"vector-view-edit": "Uredi",
-	"vector-view-history": "Zgodovina",
-	"vector-view-view": "Preberi",
-	"vector-view-viewsource": "Izvorno besedilo",
-	"vector-more-actions": "Več"
+	"eigenvector-skin-desc": "Sodobna različica MonoBook s svežim videzom in mnogimi izboljšavami uporabnosti",
+	"eigenvector-action-addsection": "Dodaj temo",
+	"eigenvector-action-delete": "Izbriši",
+	"eigenvector-action-move": "Preimenuj",
+	"eigenvector-action-protect": "Zaščiti",
+	"eigenvector-action-undelete": "Obnovi",
+	"eigenvector-action-unprotect": "Spremeni zaščito",
+	"eigenvector-view-create": "Ustvari",
+	"eigenvector-view-edit": "Uredi",
+	"eigenvector-view-history": "Zgodovina",
+	"eigenvector-view-view": "Preberi",
+	"eigenvector-view-viewsource": "Izvorno besedilo",
+	"eigenvector-more-actions": "Več"
 }

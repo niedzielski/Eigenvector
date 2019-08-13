@@ -7,17 +7,17 @@
 			"Tem"
 		]
 	},
-	"skinname-vector": "Veicteoir",
-	"vector-action-addsection": "Cuir topaic leis",
-	"vector-action-delete": "Scrios",
-	"vector-action-move": "Athainmnigh",
-	"vector-action-protect": "Glasáil",
-	"vector-action-undelete": "Díscrios",
-	"vector-action-unprotect": "Díghlasáil",
-	"vector-view-create": "Cruthaigh",
-	"vector-view-edit": "Cuir in eagar",
-	"vector-view-history": "Féach ar stair",
-	"vector-view-view": "Léigh",
-	"vector-view-viewsource": "Féach ar fhoinse",
-	"vector-more-actions": "Tuilleadh"
+	"skinname-eigenvector": "Veicteoir",
+	"eigenvector-action-addsection": "Cuir topaic leis",
+	"eigenvector-action-delete": "Scrios",
+	"eigenvector-action-move": "Athainmnigh",
+	"eigenvector-action-protect": "Glasáil",
+	"eigenvector-action-undelete": "Díscrios",
+	"eigenvector-action-unprotect": "Díghlasáil",
+	"eigenvector-view-create": "Cruthaigh",
+	"eigenvector-view-edit": "Cuir in eagar",
+	"eigenvector-view-history": "Féach ar stair",
+	"eigenvector-view-view": "Léigh",
+	"eigenvector-view-viewsource": "Féach ar fhoinse",
+	"eigenvector-more-actions": "Tuilleadh"
 }

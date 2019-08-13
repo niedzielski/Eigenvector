@@ -4,13 +4,13 @@
 			"Gnangarra"
 		]
 	},
-	"vector-action-addsection": "Wer katitjiny",
-	"vector-action-delete": "Barranginy",
-	"vector-action-move": "Ngatta",
-	"vector-action-protect": "Nap-nap",
-	"vector-view-create": "Yeye-quadga",
-	"vector-view-edit": "Wallak",
-	"vector-view-history": "genuny kura",
-	"vector-view-view": "miall wongie",
-	"vector-more-actions": "Karro"
+	"eigenvector-action-addsection": "Wer katitjiny",
+	"eigenvector-action-delete": "Barranginy",
+	"eigenvector-action-move": "Ngatta",
+	"eigenvector-action-protect": "Nap-nap",
+	"eigenvector-view-create": "Yeye-quadga",
+	"eigenvector-view-edit": "Wallak",
+	"eigenvector-view-history": "genuny kura",
+	"eigenvector-view-view": "miall wongie",
+	"eigenvector-more-actions": "Karro"
 }

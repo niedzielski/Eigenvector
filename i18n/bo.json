@@ -6,16 +6,16 @@
 			"ཁ་བཏགས་ནག་པོ"
 		]
 	},
-	"vector-action-addsection": "བརྗོད་གཞི་ཁ་སྣོན།",
-	"vector-action-delete": "སུབས།",
-	"vector-action-move": "སྤོར་བ།",
-	"vector-action-protect": "འགོག་སྲུང།",
-	"vector-action-undelete": "མི་བསུབས་",
-	"vector-action-unprotect": "སྲུང་སྐྱོབ་གློད་པ།",
-	"vector-view-create": "གསར་བཟོ།",
-	"vector-view-edit": "རྩོམ་སྒྲིག",
-	"vector-view-history": "ལོ་རྒྱུས་ལ་ལྟ་བ།",
-	"vector-view-view": "ཀློག་པ།",
-	"vector-view-viewsource": "ཁུངས་ལ་ལྟ་བ།",
-	"vector-more-actions": "དེ་ལས་མང་བ།"
+	"eigenvector-action-addsection": "བརྗོད་གཞི་ཁ་སྣོན།",
+	"eigenvector-action-delete": "སུབས།",
+	"eigenvector-action-move": "སྤོར་བ།",
+	"eigenvector-action-protect": "འགོག་སྲུང།",
+	"eigenvector-action-undelete": "མི་བསུབས་",
+	"eigenvector-action-unprotect": "སྲུང་སྐྱོབ་གློད་པ།",
+	"eigenvector-view-create": "གསར་བཟོ།",
+	"eigenvector-view-edit": "རྩོམ་སྒྲིག",
+	"eigenvector-view-history": "ལོ་རྒྱུས་ལ་ལྟ་བ།",
+	"eigenvector-view-view": "ཀློག་པ།",
+	"eigenvector-view-viewsource": "ཁུངས་ལ་ལྟ་བ།",
+	"eigenvector-more-actions": "དེ་ལས་མང་བ།"
 }

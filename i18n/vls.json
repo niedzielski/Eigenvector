@@ -4,11 +4,11 @@
 			"DasRakel"
 		]
 	},
-	"vector-action-delete": "Wegdoen",
-	"vector-action-move": "Ernoemn",
-	"vector-view-create": "Anmoakn",
-	"vector-view-edit": "Bewerkn",
-	"vector-view-history": "Geschiedenisse bekykn",
-	"vector-view-view": "Leezn",
-	"vector-view-viewsource": "Brontekst bekykn"
+	"eigenvector-action-delete": "Wegdoen",
+	"eigenvector-action-move": "Ernoemn",
+	"eigenvector-view-create": "Anmoakn",
+	"eigenvector-view-edit": "Bewerkn",
+	"eigenvector-view-history": "Geschiedenisse bekykn",
+	"eigenvector-view-view": "Leezn",
+	"eigenvector-view-viewsource": "Brontekst bekykn"
 }

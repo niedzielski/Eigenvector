@@ -8,16 +8,16 @@
 			"Singhalawap"
 		]
 	},
-	"vector-action-addsection": "මාතෘකාවක් එක්කරන්න",
-	"vector-action-delete": "මකන්න",
-	"vector-action-move": "ගෙනයන්න",
-	"vector-action-protect": "ආරක්‍ෂණය",
-	"vector-action-undelete": "මකාදැමීම අවලංගු කරන්න",
-	"vector-action-unprotect": "ආරක්ෂණ තත්වය වෙනස් කරන්න",
-	"vector-view-create": "තනන්න",
-	"vector-view-edit": "සංස්කරණය කරන්න",
-	"vector-view-history": "ඉතිහාසය බලන්න",
-	"vector-view-view": "කියවන්න",
-	"vector-view-viewsource": "මූලාශ්‍රය නරඹන්න",
-	"vector-more-actions": "තවත්"
+	"eigenvector-action-addsection": "මාතෘකාවක් එක්කරන්න",
+	"eigenvector-action-delete": "මකන්න",
+	"eigenvector-action-move": "ගෙනයන්න",
+	"eigenvector-action-protect": "ආරක්‍ෂණය",
+	"eigenvector-action-undelete": "මකාදැමීම අවලංගු කරන්න",
+	"eigenvector-action-unprotect": "ආරක්ෂණ තත්වය වෙනස් කරන්න",
+	"eigenvector-view-create": "තනන්න",
+	"eigenvector-view-edit": "සංස්කරණය කරන්න",
+	"eigenvector-view-history": "ඉතිහාසය බලන්න",
+	"eigenvector-view-view": "කියවන්න",
+	"eigenvector-view-viewsource": "මූලාශ්‍රය නරඹන්න",
+	"eigenvector-more-actions": "තවත්"
 }

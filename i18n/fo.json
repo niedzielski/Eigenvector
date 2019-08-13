@@ -5,17 +5,17 @@
 			"EileenSanda"
 		]
 	},
-	"vector-skin-desc": "Moderna versión af MonoBook við frískari útsjónd og nógvum nýtslubetringum",
-	"vector-action-addsection": "Nýtt evni",
-	"vector-action-delete": "Strika",
-	"vector-action-move": "Flyt",
-	"vector-action-protect": "Friða",
-	"vector-action-undelete": "Endurstovna",
-	"vector-action-unprotect": "Broyt verju",
-	"vector-view-create": "Stovna",
-	"vector-view-edit": "Rætta",
-	"vector-view-history": "Vís søgu",
-	"vector-view-view": "Les",
-	"vector-view-viewsource": "Vís keldu",
-	"vector-more-actions": "Meira"
+	"eigenvector-skin-desc": "Moderna versión af MonoBook við frískari útsjónd og nógvum nýtslubetringum",
+	"eigenvector-action-addsection": "Nýtt evni",
+	"eigenvector-action-delete": "Strika",
+	"eigenvector-action-move": "Flyt",
+	"eigenvector-action-protect": "Friða",
+	"eigenvector-action-undelete": "Endurstovna",
+	"eigenvector-action-unprotect": "Broyt verju",
+	"eigenvector-view-create": "Stovna",
+	"eigenvector-view-edit": "Rætta",
+	"eigenvector-view-history": "Vís søgu",
+	"eigenvector-view-view": "Les",
+	"eigenvector-view-viewsource": "Vís keldu",
+	"eigenvector-more-actions": "Meira"
 }

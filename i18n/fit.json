@@ -4,15 +4,15 @@
 			"Mestos"
 		]
 	},
-	"vector-action-addsection": "Lissää aine",
-	"vector-action-delete": "Ota poies",
-	"vector-action-move": "Siirä",
-	"vector-action-protect": "Suojaa",
-	"vector-action-undelete": "Pane takashiin",
-	"vector-action-unprotect": "Muuta suojaa",
-	"vector-view-create": "Luo",
-	"vector-view-edit": "Mookkaa",
-	"vector-view-history": "Näytä histuuria",
-	"vector-view-view": "Lue",
-	"vector-view-viewsource": "Näytä lähekooti"
+	"eigenvector-action-addsection": "Lissää aine",
+	"eigenvector-action-delete": "Ota poies",
+	"eigenvector-action-move": "Siirä",
+	"eigenvector-action-protect": "Suojaa",
+	"eigenvector-action-undelete": "Pane takashiin",
+	"eigenvector-action-unprotect": "Muuta suojaa",
+	"eigenvector-view-create": "Luo",
+	"eigenvector-view-edit": "Mookkaa",
+	"eigenvector-view-history": "Näytä histuuria",
+	"eigenvector-view-view": "Lue",
+	"eigenvector-view-viewsource": "Näytä lähekooti"
 }

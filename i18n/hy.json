@@ -7,17 +7,17 @@
 			"Arman musikyan"
 		]
 	},
-	"skinname-vector": "Սովորական",
-	"vector-action-addsection": "Ավելացնել քննարկում",
-	"vector-action-delete": "Ջնջել",
-	"vector-action-move": "Տեղափոխել այս էջը",
-	"vector-action-protect": "Պաշտպանել",
-	"vector-action-undelete": "Վերականգնել",
-	"vector-action-unprotect": "Փոխել պաշտպանումը",
-	"vector-view-create": "Ստեղծել",
-	"vector-view-edit": "Խմբագրել",
-	"vector-view-history": "Դիտել պատմությունը",
-	"vector-view-view": "Կարդալ",
-	"vector-view-viewsource": "Դիտել ելատեքստը",
-	"vector-more-actions": "Ավելին"
+	"skinname-eigenvector": "Սովորական",
+	"eigenvector-action-addsection": "Ավելացնել քննարկում",
+	"eigenvector-action-delete": "Ջնջել",
+	"eigenvector-action-move": "Տեղափոխել այս էջը",
+	"eigenvector-action-protect": "Պաշտպանել",
+	"eigenvector-action-undelete": "Վերականգնել",
+	"eigenvector-action-unprotect": "Փոխել պաշտպանումը",
+	"eigenvector-view-create": "Ստեղծել",
+	"eigenvector-view-edit": "Խմբագրել",
+	"eigenvector-view-history": "Դիտել պատմությունը",
+	"eigenvector-view-view": "Կարդալ",
+	"eigenvector-view-viewsource": "Դիտել ելատեքստը",
+	"eigenvector-more-actions": "Ավելին"
 }
