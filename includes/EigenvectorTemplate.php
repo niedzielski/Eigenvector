@@ -118,6 +118,7 @@ class EigenvectorTemplate extends BaseTemplate {
 				<?php $this->renderPortals( $this->data['sidebar'] ); ?>
 			</div>
 		</div>
+		<?php echo $this->renderWithReact()['markup']; ?>
 		<?php Hooks::run( 'EigenvectorBeforeFooter' ); ?>
 		<div id="footer" role="contentinfo"<?php $this->html( 'userlangattributes' ) ?>>
 			<?php
@@ -167,6 +168,23 @@ class EigenvectorTemplate extends BaseTemplate {
 		echo $templates->processTemplate( 'index', $params );
 	}
 
+	private function renderWithReact( ) {
+		if ( class_exists( 'V8Js' ) ) {
+			$js = "var global = {}, mw = {};";
+			$moduleContent = $this->getModuleContent( 'skins.eigenvector.server' );
+			$js .= "\n\nglobal.messages = " . $moduleContent[ 'messagesBlob' ] . ";";
+			$js .= "\n\n" . $moduleContent[ 'scripts' ];
+			$js .= "\n\nglobal.renderServer();\n";
+			$v8 = new \V8Js();
+			$result = $v8->executeString( $js );
+			return [ 'state' => FormatJson::decode( $result->state ), 'markup' => $result->markup ];
+		}
+	}
+	private function getModuleContent( $moduleName ) {
+		$r = $this->getSkin()->getContext()->getOutput()->getResourceLoader();
+		$m = $r->getModule( $moduleName );
+		return $m->getModuleContent( ResourceLoaderContext::newDummyContext() );
+	}
 	/**
 	 * Render a series of portals
 	 *

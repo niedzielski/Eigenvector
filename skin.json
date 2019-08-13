@@ -66,6 +66,14 @@
 				"jquery.throttle-debounce",
 				"jquery.tabIndex"
 			]
+		},
+		"skins.eigenvector.server": {
+			"scripts": [
+				"src/server/server.js"
+			],
+			"messages": [
+				"skinname-eigenvector"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
