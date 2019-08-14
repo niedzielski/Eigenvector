@@ -109,16 +109,16 @@ class EigenvectorTemplate extends BaseTemplate {
 					<?php $this->renderNavigation( [ 'VIEWS', 'ACTIONS', 'SEARCH' ] ); ?>
 				</div>
 			</div>
-			<div id="mw-panel">
-				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="<?php
-					echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] )
-					?>"<?php
-					echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) )
-					?>></a></div>
-				<?php $this->renderPortals( $this->data['sidebar'] ); ?>
-			</div>
+			<?php echo $this->renderWithReact(
+				[
+					'logoAttrs' => [
+						'href' => htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ),
+						Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) )
+					],
+					'portalsHTML' => $this->renderPortals( $this->data['sidebar'] )
+				]
+			)['markup']; ?>
 		</div>
-		<?php echo $this->renderWithReact()['markup']; ?>
 		<?php Hooks::run( 'EigenvectorBeforeFooter' ); ?>
 		<div id="footer" role="contentinfo"<?php $this->html( 'userlangattributes' ) ?>>
 			<?php
@@ -168,13 +168,14 @@ class EigenvectorTemplate extends BaseTemplate {
 		echo $templates->processTemplate( 'index', $params );
 	}
 
-	private function renderWithReact( ) {
+	/** @param array $props */
+	private function renderWithReact( $props ) {
 		if ( class_exists( 'V8Js' ) ) {
 			$js = "var global = {}, mw = {};";
 			$moduleContent = $this->getModuleContent( 'skins.eigenvector.server' );
 			$js .= "\n\nglobal.messages = " . $moduleContent[ 'messagesBlob' ] . ";";
 			$js .= "\n\n" . $moduleContent[ 'scripts' ];
-			$js .= "\n\neigenvector.renderServer();\n";
+			$js .= "\n\neigenvector.renderServer(" . FormatJson::encode( $props ) . ");\n";
 			$v8 = new \V8Js();
 			$result = $v8->executeString( $js );
 			return [ 'state' => FormatJson::decode( $result->state ), 'markup' => $result->markup ];
@@ -191,6 +192,7 @@ class EigenvectorTemplate extends BaseTemplate {
 	 * @param array $portals
 	 */
 	protected function renderPortals( array $portals ) {
+		$ret = '';
 		// Force the rendering of the following portals
 		if ( !isset( $portals['TOOLBOX'] ) ) {
 			$portals['TOOLBOX'] = true;
@@ -211,19 +213,20 @@ class EigenvectorTemplate extends BaseTemplate {
 				case 'SEARCH':
 					break;
 				case 'TOOLBOX':
-					$this->renderPortal( 'tb', $this->getToolbox(), 'toolbox', 'SkinTemplateToolboxEnd' );
+					$ret .= $this->renderPortal( 'tb', $this->getToolbox(), 'toolbox', 'SkinTemplateToolboxEnd' );
 					Hooks::run( 'EigenvectorAfterToolbox' );
 					break;
 				case 'LANGUAGES':
 					if ( $this->data['language_urls'] !== false ) {
-						$this->renderPortal( 'lang', $this->data['language_urls'], 'otherlanguages' );
+						$ret .= $this->renderPortal( 'lang', $this->data['language_urls'], 'otherlanguages' );
 					}
 					break;
 				default:
-					$this->renderPortal( $name, $content );
+					$ret .= $this->renderPortal( $name, $content );
 					break;
 			}
 		}
+		return $ret;
 	}
 
 	/**
@@ -233,48 +236,48 @@ class EigenvectorTemplate extends BaseTemplate {
 	 * @param null|string|array $hook
 	 */
 	protected function renderPortal( $name, $content, $msg = null, $hook = null ) {
+		$ret = '';
 		if ( $msg === null ) {
 			$msg = $name;
 		}
 		$msgObj = $this->getMsg( $msg );
 		$labelId = Sanitizer::escapeIdForAttribute( "p-$name-label" );
-		?>
-		<div class="portal" role="navigation" id="<?php
-		echo htmlspecialchars( Sanitizer::escapeIdForAttribute( "p-$name" ) )
-		?>"<?php
-		echo Linker::tooltip( 'p-' . $name )
-		?> aria-labelledby="<?php echo htmlspecialchars( $labelId ) ?>">
-			<h3<?php $this->html( 'userlangattributes' ) ?> id="<?php echo htmlspecialchars( $labelId )
-				?>"><?php
-				echo htmlspecialchars( $msgObj->exists() ? $msgObj->text() : $msg );
-				?></h3>
-			<div class="body">
-				<?php
-				if ( is_array( $content ) ) {
-				?>
-				<ul>
-					<?php
-					foreach ( $content as $key => $val ) {
-						echo $this->makeListItem( $key, $val );
-					}
-					if ( $hook !== null ) {
-						// Avoid PHP 7.1 warning
-						$skin = $this;
-						Hooks::run( $hook, [ &$skin, true ] );
-					}
-					?>
-				</ul>
-				<?php
-				} else {
-					// Allow raw HTML block to be defined by extensions
-					echo $content;
-				}
 
-				$this->renderAfterPortlet( $name );
-				?>
-			</div>
-		</div>
-	<?php
+		$ret .= '<div class="portal" role="navigation" id="';
+		$ret .= htmlspecialchars( Sanitizer::escapeIdForAttribute( "p-$name" ) );
+
+		$ret .= Linker::tooltip( 'p-' . $name );
+		$ret .= 'aria-labelledby="';
+		$ret .= htmlspecialchars( $labelId );
+		$ret .= '">';
+		$ret .= '<h3';
+		$ret .= $this->html( 'userlangattributes' );
+		$ret .= ' id="';
+		$ret .= htmlspecialchars( $labelId );
+		$ret .= '">';
+		$ret .= htmlspecialchars( $msgObj->exists() ? $msgObj->text() : $msg );
+		$ret .= '</h3>';
+		$ret .= '<div class="body">';
+		if ( is_array( $content ) ) {
+			$ret .= '<ul>';
+			foreach ( $content as $key => $val ) {
+				$ret .= $this->makeListItem( $key, $val );
+			}
+			if ( $hook !== null ) {
+				// Avoid PHP 7.1 warning
+				$skin = $this;
+				Hooks::run( $hook, [ &$skin, true ] );
+			}
+			$ret .= '</ul>';
+		} else {
+			// Allow raw HTML block to be defined by extensions
+			$ret .= $content;
+		}
+
+		$ret .= $this->getAfterPortlet( $name );
+		$ret .= '</div>';
+		$ret .= '</div>';
+		return $ret;
 	}
 
 	/**

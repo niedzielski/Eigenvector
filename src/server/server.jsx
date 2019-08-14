@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
+import {Sidebar} from '../components/sidebar.jsx'
 
-export function renderServer() {
+export function renderServer(props) {
 	const markup = ReactDOMServer.renderToString(
-		<div>hello world!!!</div>
+		<Sidebar {...props}>hello world!!!</Sidebar>
 	)
 	return { state: 'foo', markup };
 };
