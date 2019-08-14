@@ -6,6 +6,7 @@
 		"doc": "jsduck"
 	},
 	"devDependencies": {
+		"@babel/plugin-transform-react-jsx": "7.3.0",
 		"babel-loader": "8.0.6",
 		"clean-webpack-plugin": "3.0.0",
 		"eslint-config-wikimedia": "0.12.0",

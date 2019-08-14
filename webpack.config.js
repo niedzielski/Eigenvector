@@ -3,12 +3,12 @@ const { CleanWebpackPlugin } = require( 'clean-webpack-plugin' )
 
 module.exports = () => ( {
 	entry: {
-		server: './src/server/server.js'
+		server: './src/server/server.jsx'
 	},
 
 	module: {
 		rules: [ {
-			test: /\.js$/,
+			test: /\.jsx?$/,
 			exclude: /node_modules/,
 			use: { loader: 'babel-loader' }
 		} ]
