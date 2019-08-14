@@ -72,6 +72,7 @@ class SkinEigenvector extends SkinTemplate {
 		}
 
 		$out->addModules( 'skins.eigenvector.js' );
+		$out->addModuleStyles( 'skins.eigenvector.server.styles' );
 	}
 
 	/**

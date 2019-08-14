@@ -74,6 +74,11 @@
 			"messages": [
 				"skinname-eigenvector"
 			]
+		},
+		"skins.eigenvector.server.styles": {
+			"styles": [
+				"dist/server.css"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {

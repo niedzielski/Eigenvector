@@ -1,5 +1,6 @@
 /* eslint-env node, es6 */
 const { CleanWebpackPlugin } = require( 'clean-webpack-plugin' )
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = () => ( {
 	entry: {
@@ -11,10 +12,19 @@ module.exports = () => ( {
 			test: /\.jsx?$/,
 			exclude: /node_modules/,
 			use: { loader: 'babel-loader' }
+		}, {
+			test: /\.css$/,
+			use: [
+				{ loader: MiniCssExtractPlugin.loader },
+				'css-loader',
+			]
 		} ]
 	},
 
-	plugins: [ new CleanWebpackPlugin() ],
+	plugins: [
+		new CleanWebpackPlugin(),
+		new MiniCssExtractPlugin()
+	],
 
 	output: {
 		library: 'eigenvector',
