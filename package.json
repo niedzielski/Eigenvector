@@ -1,15 +1,22 @@
 {
 	"private": true,
 	"scripts": {
+		"start": "webpack -dw",
 		"test": "grunt test",
 		"doc": "jsduck"
 	},
 	"devDependencies": {
+		"babel-loader": "8.0.6",
+		"clean-webpack-plugin": "3.0.0",
 		"eslint-config-wikimedia": "0.12.0",
 		"grunt": "1.0.4",
 		"grunt-banana-checker": "0.7.0",
 		"grunt-eslint": "21.0.0",
 		"grunt-stylelint": "0.10.1",
-		"stylelint-config-wikimedia": "0.6.0"
+		"react": "16.9.0",
+		"react-dom": "16.9.0",
+		"stylelint-config-wikimedia": "0.6.0",
+		"webpack": "4.39.2",
+		"webpack-cli": "3.3.6"
 	}
 }

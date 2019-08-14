@@ -69,7 +69,7 @@
 		},
 		"skins.eigenvector.server": {
 			"scripts": [
-				"src/server/server.js"
+				"dist/server.js"
 			],
 			"messages": [
 				"skinname-eigenvector"

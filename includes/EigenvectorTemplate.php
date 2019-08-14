@@ -174,7 +174,7 @@ class EigenvectorTemplate extends BaseTemplate {
 			$moduleContent = $this->getModuleContent( 'skins.eigenvector.server' );
 			$js .= "\n\nglobal.messages = " . $moduleContent[ 'messagesBlob' ] . ";";
 			$js .= "\n\n" . $moduleContent[ 'scripts' ];
-			$js .= "\n\nglobal.renderServer();\n";
+			$js .= "\n\neigenvector.renderServer();\n";
 			$v8 = new \V8Js();
 			$result = $v8->executeString( $js );
 			return [ 'state' => FormatJson::decode( $result->state ), 'markup' => $result->markup ];
