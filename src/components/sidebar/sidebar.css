@@ -1,3 +1,4 @@
 .eigenvector-sidebar {
-  background: red !important;
+  position: absolute;
+  top: 40px;
 }

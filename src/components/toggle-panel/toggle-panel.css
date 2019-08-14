@@ -1,0 +1,73 @@
+:root {
+  --zIndexOccluded: -1;
+  --zIndexDrawer: 3;
+  --skinBackgroundColor: #f6f6f6;
+  --shadowColor: rgba(0,0,0,0.24);
+  --borderRadius: 2px;
+  --progressiveColor: #447ff5;
+  --duration: .1s;
+}
+
+.eigenvector-toggle-panel__checkbox {
+	/* Always occlude the checkbox. The checkbox display cannot be none since its focus state is used
+	   for other selectors. */
+	position: absolute;
+	z-index: var(--zIndexOccluded);
+	opacity: 0;
+}
+
+.eigenvector-toggle-panel__checkbox {
+	/* Use the hand icon for the toggle button which is actually a checkbox label. */
+	cursor: pointer;
+}
+
+.eigenvector-toggle-panel__checkbox:focus + .eigenvector-toggle-panel__checkbox {
+	/* The toggle button / label itself cannot receive focus but the underlying checkbox can. Keep
+	   the button and checkbox focus presentation in sync. From
+	   resources/src/mediawiki.toc.styles/screen.less. */
+	outline: dotted 1px; /* Firefox style for focus */
+	outline: auto var(--progressiveColor); /* Webkit style for focus */
+}
+
+.eigenvector-toggle-panel__panel {
+	/* The menu appears over the content and occupies no room within it. */
+	position: absolute;
+
+  /* If max-height is set and the height exceeds it, add a vertical scrollbar. */
+	overflow-y: auto;
+
+  /* The menu floats over content but below overlays. */
+	z-index: var(--zIndexDrawer);
+
+	background: var(--skinBackgroundColor);
+	box-shadow: 0 5px 17px 0 rgba( 0, 0, 0, 0.24 ), 0 0 1px var(--shadowColor);
+	border-radius: var(--borderRadius);
+
+  visibility: hidden;
+	opacity: 0;
+}
+
+.eigenvector-toggle-panel__checkbox:checked ~ .eigenvector-toggle-panel__panel {
+	/* Reveal the list when checked. */
+	visibility: visible;
+	opacity: 1;
+}
+
+.eigenvector-toggle-panel__panel--ltr {
+	transform: translateX( -160px );
+
+	/* Animate menu visibility, opacity, and translation changes in and out. Visibility must be
+	   animated since it's a boolean and nothing can be seen in display hidden. Visibility itself
+	   cannot be animated as it causes a flash on page load in Chromium due to
+	   https://bugs.chromium.org/p/chromium/issues/detail?id=332189. The effect is that the menu is
+	   animated in but not animated out. */
+  transition: opacity var(--duration) ease-in-out, transform var(--duration) ease-in-out;
+
+	/* When cursor is pointer and -webkit-tap-highlight-color is set, the color does not seem to
+	   transition. Clear it. */
+	-webkit-tap-highlight-color: transparent;
+}
+
+.eigenvector-toggle-panel__checkbox:checked ~ .eigenvector-toggle-panel__panel--ltr {
+	transform: translateX( 0 );
+}
