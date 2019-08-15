@@ -26,7 +26,7 @@
 
 #mw-head-base {
 	margin-top: -5em;
-	margin-left: 10em;
+	margin-left: var(--sidebarWidth);
 	height: 5em;
 }
 
@@ -40,7 +40,7 @@
 /* Navigation Containers */
 #left-navigation {
 	float: left;
-	margin-left: 10em;
+	margin-left: var(--sidebarWidth);
 	margin-top: 2.5em;
 	/* When right nav would overlap left nav, it's placed below it
 	   (normal CSS floats behavior). This rule ensures that no empty space
@@ -57,12 +57,12 @@
 
 /* Logo */
 #p-logo {
-	width: 10em;
+	width: var(--sidebarWidth);
 	height: 160px;
 
 	a {
 		display: block;
-		width: 10em;
+		width: var(--sidebarWidth);
 		height: 160px;
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -75,7 +75,7 @@
 	font-size: @menu-main-font-size;
 	position: absolute;
 	top: 0;
-	width: 10em;
+	width: var(--sidebarWidth);
 	left: 0;
 
 	.portal {

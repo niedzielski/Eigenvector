@@ -1,4 +1,5 @@
 .eigenvector-sidebar {
   position: absolute;
   top: 40px;
+  width: var(--sidebarWidth);
 }

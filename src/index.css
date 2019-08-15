@@ -1,0 +1,10 @@
+:root {
+  --zIndexOccluded: -1;
+  --zIndexDrawer: 3;
+  --skinBackgroundColor: #f6f6f6;
+  --shadowColor: rgba(0,0,0,0.24);
+  --borderRadius: 2px;
+  --progressiveColor: #447ff5;
+  --duration: .1s;
+  --sidebarWidth: 10em;
+}

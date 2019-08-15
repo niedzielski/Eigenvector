@@ -1,13 +1,3 @@
-:root {
-  --zIndexOccluded: -1;
-  --zIndexDrawer: 3;
-  --skinBackgroundColor: #f6f6f6;
-  --shadowColor: rgba(0,0,0,0.24);
-  --borderRadius: 2px;
-  --progressiveColor: #447ff5;
-  --duration: .1s;
-}
-
 .eigenvector-toggle-panel__checkbox {
 	/* Always occlude the checkbox. The checkbox display cannot be none since its focus state is used
 	   for other selectors. */
@@ -54,7 +44,7 @@
 }
 
 .eigenvector-toggle-panel__panel--ltr {
-	transform: translateX( -160px );
+	transform: translateX( -100% );
 
 	/* Animate menu visibility, opacity, and translation changes in and out. Visibility must be
 	   animated since it's a boolean and nothing can be seen in display hidden. Visibility itself
